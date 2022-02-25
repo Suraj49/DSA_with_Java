@@ -5,5 +5,6 @@ public class PrintZ {
         System.out.println("  *");
         System.out.println(" *");
         System.out.println("*****");
+
     }
 }
