@@ -11,15 +11,16 @@ public class IsPrimeNo {
             System.out.println("Enter the No that you want to check:");
             int flag = 0;
             num = sc.nextInt();
-            for (int i = 2; i <= num; i++) {
+            for (int i = 2; i*i <= num; i++) {
                 if (num % i == 0) {
                     flag = flag + 1;
+                    break;
                 }
             }
             if (flag == 1) {
-                System.out.println(num + " Is Prime Number");
-            } else {
                 System.out.println(num + " Is Not Prime Number");
+            } else {
+                System.out.println(num + " Is Prime Number");
             }
         }
     }
