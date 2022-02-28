@@ -11,6 +11,10 @@ public class RotateANumber {
             temp = temp / 10;
             digit++;
         }
+        k=k%digit;
+        if(k<0){
+            k+=digit;
+        }
         int pow=(int)Math.pow(10,k);//10^k
         int left=n / pow;
         int right=n % pow;
