@@ -7,11 +7,11 @@ public class Pattern_3 {
         int n=sc.nextInt();
         int Star=1;
         int Space=n-1;
-        for(int i=0;i<n;i++){
-            for(int spc=0;spc<Space;spc++) {
+        for(int i=1;i<=n;i++){
+            for(int spc=1;spc<=Space;spc++) {
                 System.out.print("\t");
             }
-            for(int str=0;str<Star;str++){
+            for(int str=1;str<=Star;str++){
                 System.out.print("*\t");
             }
             Star++;
