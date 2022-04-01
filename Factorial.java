@@ -12,8 +12,8 @@ public class Factorial {
             return 1;
         }
 
-        int fnm1 = factorial(n - 1);
-        int fn = n * fnm1;
-        return fn;
+        int temp = factorial(n - 1);
+        int fact = n * temp;
+        return fact;
     }
 }
