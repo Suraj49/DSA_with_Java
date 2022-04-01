@@ -8,11 +8,10 @@ public class PrintIncreasingRec {
         printIncreasing(n);
     }
     public static void printIncreasing(int n){
-        if(n==0){
+        if(n==0) {
             return;
-        }else {
-            printIncreasing(n-1);
         }
+        printIncreasing(n-1);
         System.out.println(n);
     }
 }

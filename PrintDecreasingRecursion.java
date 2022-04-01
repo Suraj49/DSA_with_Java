@@ -4,10 +4,11 @@ public class PrintDecreasingRecursion {
 
     public static void printDecreasing(int n){
 
-        System.out.println(n);
-        if(n>1) {
-            printDecreasing(n - 1);
+        if(n==0) {
+            return;
         }
+        System.out.println(n);
+        printDecreasing(n - 1);
 
     }
 
