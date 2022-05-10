@@ -17,8 +17,8 @@ public class GetSubsequence {
             base.add("");
             return base;
         }
-        char ch=str.charAt(0);    //a
-        String ros=str.substring(1);  //bc
+        char ch=str.charAt(0);
+        String ros=str.substring(1);
 
         ArrayList<String> recAns= gss(ros);
         ArrayList<String> myAns=new ArrayList<>();
